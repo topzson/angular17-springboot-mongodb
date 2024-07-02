@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+D:\PTNFILE\workspaces\angular17-springboot-mongodb\mongodb\.metadata\.plugins\org.eclipse.jdt.core
