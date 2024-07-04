@@ -28,7 +28,7 @@ export class AddTutorialComponent {
         console.log(res);
         this.submitted = true;
       },
-      error: (e) => console.error(e);
+      error: (e) => console.error(e)
     });
   }
   newTutorial(): void {

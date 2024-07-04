@@ -62,7 +62,20 @@ export class TutorialDetailsComponent implements OnInit{
       error: (e) => console.error(e)
     });
   }
-  
+
+  updateTutorial(): void {
+    this.message = '';
+
+    this.tutorialService.update(this.currentTutorial.id, this.currentTutorial)
+      .subscribe({
+        next: (res) => {
+          console.log(res);
+          this.message = res.message ? res.message : 'This tutorial was updated successfully!';
+        },
+        error: (e) => console.error(e)
+      });
+  }
+
   deleteTutorial(): void {
     this.tutorialService.delete(this.currentTutorial.id)
       .subscribe({

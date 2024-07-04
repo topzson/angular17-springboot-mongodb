@@ -24,7 +24,7 @@ export class TutorialsListComponent implements OnInit{
       this.tutorials = data;
       console.log(data);    
     },
-    error:(e) => console.error(e);
+    error:(e) => console.error(e)
     });
   }
 
