@@ -8,6 +8,6 @@ RUN npm install -g @angular/cli
 
 RUN npm install
 
-CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "8081"]
+CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "8082"]
 
-EXPOSE 8081
+EXPOSE 8082

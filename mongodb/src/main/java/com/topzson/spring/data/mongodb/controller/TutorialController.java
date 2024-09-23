@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.topzson.spring.data.mongodb.model.Tutorial;
 import com.topzson.spring.data.mongodb.repository.TutorialRepository;
 
-@CrossOrigin(origins = "http://localhost:8081" , allowedHeaders = {"Authorization", "Origin"},maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 
